@@ -1,0 +1,28 @@
+<center>
+    <body>
+        <p>This program finds duplicate files in two different folders. It finds duplicates 
+            with each inputed folder and in between inputted folders.</p>
+        <p>Please edit the current working directory shown below to enter two starting directories</p>
+        <p>{{cwd}}</p>
+    </body>
+    <form method="POST">
+        <label>Enter the first path with editing the current directory above</label>
+        <input name="path_1">
+        <br>
+        <label>Enter the second path with editing the current directory above</label>
+        <input name="path_2">
+        <br>
+        <label>Enter the depth of your search (a number). It should be less than 100</label>
+        <input name="depth_entered">
+        <br>
+        <input type="submit">
+    </form>
+    <body>
+        <p>The content of the inital directories are listed below. 
+            If this is not what you want, enter new locations and press the button again.</p>
+        <p>{{path__1}}</p>
+        <p>{{path__2}}</p>
+        <p>The location of the output file output.csv is located at:</p>
+        <p>{{current_path}}</p>
+    </body>
+</center>
